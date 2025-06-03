@@ -1,0 +1,13 @@
+###
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/comments
+Content-Type: application/json
+
+{
+  "text": "Пример комментария"
+}
+
+###
+GET http://localhost:3000/stats
