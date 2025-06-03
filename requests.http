@@ -6,7 +6,8 @@ POST http://localhost:3000/comments
 Content-Type: application/json
 
 {
-  "text": "Пример комментария"
+  "text": "1"
+  "text": "2"
 }
 
 ###
